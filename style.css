@@ -8,6 +8,18 @@ html {
   font-family: sans-serif;
 }
 .container {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
+  #F46632 #29D089
+  max-width: 136.6rem;
+}
+
+.request-third {
+  display: grid;
+  margin: 5rem 0;
+  height: 30rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  background-color: black;
+  color: white;
 }
