@@ -15,13 +15,16 @@ html {
   width: 98%;
   margin: 0 auto;
 }
+.sessions_title {
+  position: relative;
+}
 .sessions_title h2 {
   text-align: center;
-  font-size: 8rem;
+  font-size: 12rem;
   color: #f0f1f1;
   position: absolute;
   transform: translate(-50%);
-  top: 0;
+  top: -120%;
   left: 50%;
   z-index: -1;
 }
@@ -30,7 +33,6 @@ html {
   margin-bottom: 10rem;
   text-align: center;
   font-size: 3.6rem;
-  position: relative;
 }
 .session_title2_left {
   display: flex;
@@ -69,4 +71,39 @@ html {
 }
 .sessions_main_into_text {
   opacity: 0.6;
+}
+.sessions_title1 {
+  margin-top: 10rem;
+  position: relative;
+}
+.sessions_title1 h2 {
+  text-align: center;
+  font-size: 12rem;
+  color: #f0f1f1;
+  position: absolute;
+  transform: translate(-50%);
+  top: -130%;
+  left: 50%;
+  z-index: -1;
+}
+.sessions_title1 h1 {
+  margin: 3rem;
+  margin-bottom: 10rem;
+  text-align: center;
+  font-size: 3.6rem;
+}
+.masters_grid {
+  row-gap: 10rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.masters_grid1 img {
+  width: 70%;
+}
+.masters_grid1 h1 {
+  margin-top: 2rem;
+}
+.masters_grid1 p {
+  margin-top: 2rem;
 }
