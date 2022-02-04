@@ -10,16 +10,64 @@ html {
 .container {
   /* width: 90%; */
   margin: 0 auto;
-  #F46632 #29D089
+  #F46632 
   max-width: 136.6rem;
 }
 
 .request-third {
   display: grid;
   margin: 5rem 0;
-  height: 30rem;
+  height: 40rem;
   grid-template-columns: 1fr 1fr;
   padding: 1rem;
   background-color: black;
-  color: white;
+  color:wheat;
+}
+
+.request-title-third {
+  font-size: 2.5rem;
+  margin: 8rem 0 1rem 2rem;
+}
+
+.request-description-third {
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 2rem;
+  opacity: 0.6;
+  line-height: 2.2rem;
+}
+
+.request-input-third {
+  background-color: rgb(43, 40, 40);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  margin: 1rem 0 4rem 2rem;
+  width: 40rem;
+}
+
+.request-input-third::placeholder {
+  color:wheat;
+}
+
+.request-icon-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.request-one i {
+  font-size: 1.5rem;
+  color: #29D089;
+  margin: 0.5rem;
+}
+
+.request-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/Union\ 3.png);
+  background-repeat: no-repeat;
+  background-size: 50rem 40rem;
+  background-position:center ;
 }
