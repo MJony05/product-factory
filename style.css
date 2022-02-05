@@ -278,27 +278,184 @@ html {
   font-size: 1.8rem;
 }
 
-@media (max-width: 1200px) {
-  .schedule-title-third {
+@media (max-width: 57.6em) {
+  .request-third {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .request-two {
+    display: none;
+    width: 0;
+  }
+
+  /* project header */
+  /* .schedule-title-third p:nth-child(2) {
+    z-index: -1;
+    position: absolute;
+    top: -5rem;
+    right: 0;
+  } */
+
+  .projects-header-third {
     text-align: center;
-    margin: 10rem;
+    margin: 10rem auto;
     position: relative;
   }
 
-  .schedule-title-third p:nth-child(1) {
+  .projects-header-third p:nth-child(1) {
     font-size: 2.5rem;
     font-weight: 700;
     z-index: 100;
     letter-spacing: 0.2rem;
   }
 
-  .schedule-title-third p:nth-child(2) {
+  .projects-header-third p:nth-child(2) {
     font-size: 10rem;
     font-weight: 750;
     color: rgb(229, 226, 226);
     z-index: -1;
     position: absolute;
     top: -5rem;
-    left: 31%;
+    transform: translateY(-1%);
+    transform: translateX(-30%);
+  }
+
+  /* .projects-header-third p:nth-child(2) {
+    z-index: -1;
+    position: absolute;
+    top: -5rem;
+    left: 10%;
+  } */
+
+  /* project max-width: 576px */
+  .project-body-third {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 130rem;
+    border: 2px solid red;
+  }
+
+  .project-one-third {
+    padding-right: 2rem;
+  }
+
+  /* schedule-footer-third */
+  .schedule-how-third {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .schedule-year-third {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 70%;
+    margin: 2rem auto;
+  }
+
+  .schedule-register-third {
+    margin: 3rem;
+  }
+
+  .schedule-footer-third {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+@media (max-width: 62em) {
+  /* request */
+
+  .request-two {
+    background-image: none;
+  }
+
+  /* project */
+  .project-body-third {
+    border: 2px solid red;
+  }
+
+  .project-description-third {
+    padding: 0.5rem 0 2rem 2rem;
+  }
+
+  .project-icon-third {
+    padding: 0.5rem 0 2rem 2rem;
+    font-size: 1rem;
+  }
+
+  .project-one-third {
+    text-align: center;
+  }
+
+  .project-two-third {
+    display: none;
+  }
+
+  .project-card {
+    margin: 0 5rem;
+  }
+
+  /*  */
+}
+
+@media (max-width: 75em) {
+  .project-body-third {
+    height: 70rem;
+    border: 2px solid red;
+  }
+}
+
+@media (max-width: 48em) {
+  .project-body-third {
+    height: 100rem;
+    border: 2px solid red;
+  }
+  .project-two-third {
+    margin-top: -10rem;
+  }
+}
+
+@media (max-width: 36em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* request */
+
+  .request-input-third {
+    width: 80%;
+  }
+
+  .project-body-third {
+    height: 120rem;
+    border: 2px solid red;
+  }
+
+  .project-two-third {
+    margin-top: 0rem;
+  }
+
+  .project-one-third {
+    text-align: left;
+  }
+
+  .project-two-third {
+    display: block;
+  }
+
+  /* schedule */
+
+  .schedule-year-third p {
+    width: 70%;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+    padding: 1rem 4.5rem;
   }
 }
