@@ -96,3 +96,90 @@ html {
   top: -5rem;
   left: 36%;
 }
+
+.project-body-third {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50rem;
+}
+
+
+.project-title-third {
+  display: flex;
+  margin: 5rem 0 1rem 5rem;
+  align-items: center;
+  font-size: 3rem;
+
+}
+
+.project-one-third p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.project-description-third{
+  padding: 1rem 0 3rem 5rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.project-icon-third {
+  padding: 1rem 0 3rem 5rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.project-icon-third i {
+  color: #29D089;
+  margin-right: 1rem;
+}
+
+.project-number {
+  background-color: rgb(214, 214, 214);
+  margin: 1rem 0 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.project-two-third {
+  
+  text-align: center;
+  position: relative;
+  padding-top: 5rem;
+}
+
+.project-background-card {
+  width: 40rem;
+  height: 30rem;
+  background-color: rgb(231, 220, 220);
+  border-radius: 1rem;
+  margin: 1rem auto;
+}
+
+.project-control-icon {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+
+.project-card {
+  height: 35rem;
+  position: absolute;
+  top: 11rem;
+  border-radius: 2rem;
+  background-color: white;
+  width: 20rem;
+  border: none;
+  box-shadow: 0 0 0.5rem;
+}
+
+.project-control-icon i {
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  opacity: 0.8;
+}
