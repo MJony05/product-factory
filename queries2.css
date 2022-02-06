@@ -1,0 +1,93 @@
+@media (max-width: 65em) {
+  .sessions_title1 h2 {
+    font-size: 9rem;
+    top: -80%;
+  }
+  .sessions_title h2 {
+    font-size: 9rem;
+    top: -90%;
+  }
+  .sessions_title_into {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    line-height: 2;
+  }
+  .masters_grid {
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 50em) {
+  .masters_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .sessions_title1 h2 {
+    font-size: 7rem;
+    top: -48%;
+  }
+  .sessions_title h2 {
+    font-size: 7rem;
+    top: -50%;
+  }
+  .fee_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .sessions_main_into {
+    gap: 2rem;
+    grid-template-columns: 1fr 5fr;
+  }
+  .sessions_main_into img {
+    width: 100%;
+  }
+}
+@media (max-width: 37em) {
+  .sessions_main_into {
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  .masters_grid {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    justify-self: center;
+  }
+  .sessions_main_into img {
+    width: 60%;
+  }
+  .sessions_main_into_img {
+    text-align: center;
+  }
+  .sessions_title1 h2 {
+    font-size: 5rem;
+    top: -40%;
+  }
+  .sessions_title1 h1 {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 25em) {
+  .sessions_title_into {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .masters_grid {
+    grid-template-columns: 1fr;
+  }
+  .fee_title {
+    font-size: 2rem;
+  }
+  .fee_icon p {
+    font-size: 1.4rem;
+  }
+  .sessions_title1 h2 {
+    font-size: 3rem;
+    top: -6%;
+  }
+  .sessions_title1 h1 {
+    margin: 3rem;
+    font-size: 2rem;
+  }
+}
