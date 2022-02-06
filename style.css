@@ -414,11 +414,25 @@ html {
 
 @media (max-width: 48em) {
   .project-body-third {
-    height: 100rem;
+    height: 60rem;
     border: 2px solid red;
   }
   .project-two-third {
     margin-top: -10rem;
+  }
+  .schedule-year-third p {
+    width: 70%;
+    margin: 2rem auto;
+    font-size: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    padding: 0;
+  }
+
+  .schedule-register-third {
+    margin-top: 8rem;
   }
 }
 
@@ -456,6 +470,18 @@ html {
     width: 70%;
     margin: 2rem auto;
     font-size: 2.5rem;
-    padding: 1rem 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    padding: 0;
+  }
+
+  .schedule-register-third {
+    margin-top: 8rem;
+  }
+
+  .schedule-register-third p:nth-child(2) {
+    font-size: 2rem;
   }
 }
