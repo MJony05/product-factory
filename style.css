@@ -334,7 +334,6 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     height: 130rem;
-    border: 2px solid red;
   }
 
   .project-one-third {
@@ -377,9 +376,6 @@ html {
   }
 
   /* project */
-  .project-body-third {
-    border: 2px solid red;
-  }
 
   .project-description-third {
     padding: 0.5rem 0 2rem 2rem;
@@ -408,14 +404,12 @@ html {
 @media (max-width: 75em) {
   .project-body-third {
     height: 70rem;
-    border: 2px solid red;
   }
 }
 
 @media (max-width: 48em) {
   .project-body-third {
     height: 60rem;
-    border: 2px solid red;
   }
   .project-two-third {
     margin-top: -10rem;
@@ -449,7 +443,6 @@ html {
 
   .project-body-third {
     height: 120rem;
-    border: 2px solid red;
   }
 
   .project-two-third {
