@@ -779,3 +779,128 @@ nav img {
   border: none;
   background-color: rgb(182, 123, 12);
 }
+
+@media (max-width: 1200px) {
+  .slider-header {
+    width: 40rem;
+  }
+  .slider-img img {
+    width: 30rem;
+  }
+  .slider {
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slider {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .slider-text {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-header {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .slider-img {
+    display: none;
+  }
+  .ex-nav {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .ex-nav a {
+    border-radius: 5px !important;
+    margin-top: 5px;
+  }
+  .ex-content {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    margin: 10px 0;
+  }
+  .ex-content img {
+    width: 100%;
+  }
+  .experience .container {
+    padding: 3rem !important;
+  }
+}
+@media (max-width: 751px) {
+  .navigation {
+    display: none;
+  }
+  .slider {
+    padding: 0;
+    margin-top: 2rem;
+  }
+  main {
+    height: 60vh;
+  }
+  .about .container {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  .about-title {
+    text-align: center;
+    display: flex !important;
+    justify-self: center;
+  }
+  .about-title .forhide {
+    display: none;
+  }
+  .about .container {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 340px) {
+  .slider-text h1 {
+    font-size: 3rem;
+  }
+  .slider-text p {
+    margin: 2rem 0;
+  }
+  .hiderr {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .hiderr img {
+    width: 100%;
+  }
+  .slider {
+    margin-top: 3rem;
+
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-text .slider-header {
+    height: 50px;
+  }
+  .slider-text p {
+    line-height: 1.2;
+    padding: 0 1rem;
+  }
+  .about-title {
+    display: none !important;
+  }
+  .ex-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .ex-nav {
+    width: 90%;
+  }
+  .ex-content img {
+    height: 100px;
+  }
+}
