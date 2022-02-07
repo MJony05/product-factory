@@ -860,7 +860,10 @@ nav img {
     padding: 1rem 2rem;
   }
 }
-@media (max-width: 340px) {
+.hiderr {
+  display: none;
+}
+@media (max-width: 400px) {
   .slider-text h1 {
     font-size: 3rem;
   }
@@ -868,6 +871,7 @@ nav img {
     margin: 2rem 0;
   }
   .hiderr {
+    display: block;
     width: 100px;
     margin: 0 auto;
   }
